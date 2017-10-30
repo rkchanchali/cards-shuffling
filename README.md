@@ -36,10 +36,12 @@ git clone https://github.com/rkchanchali/cards-shuffling.git
 It will download the source code. Step in to cards-shuffling directory.
 
 Use below command to run the springboot application.
+
 mvn spring-boot:run
 
 Use below command to run the springboot application and pass the type of shuffle during deployment.
 If the value is other than hand-shuffle, it is set to random shuffling by default.
+
 mvn spring-boot:run -Dshuffle.type=hand-shuffle  
 
 How to test:
